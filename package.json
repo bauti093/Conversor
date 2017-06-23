@@ -1,0 +1,27 @@
+{
+  "name": "@bauti093/conversor",
+  "version": "0.1.0",
+  "description": "Conversor de kilogramos a libras.",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bauti093/Conversor.git"
+  },
+  "keywords": [
+    "conversor",
+    "kilogramos",
+    "libras"
+  ],
+  "author": "Bautista Moran <bautista569812@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
